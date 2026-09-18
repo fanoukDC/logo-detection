@@ -9,7 +9,10 @@ numpy
 Pillow
 
 # Machine learning and YOLO
-torch
+# torch/torchvision pinned to a known-working CPU combo — voir MIGRATION_LOCAL.md
+# (installer avec: pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cpu)
+torch==2.4.1
+torchvision==0.19.1
 ultralytics
 
 # Data handling
